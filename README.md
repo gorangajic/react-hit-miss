@@ -25,6 +25,7 @@ const Awesome = ({ error, items, loading }) => (<HitMiss>
         component={() => (<div>
             {items.map(item => <Item {...item} />)}
         </div>)}
+    />
     <Hit
         check={loading}
         component={() => <LoadingSpinner />}
