@@ -1,5 +1,7 @@
 # React Hit Miss Component
 
+[![Build Status](https://semaphoreci.com/api/v1/gorangajic/react-hit-miss/branches/master/badge.svg)](https://semaphoreci.com/gorangajic/react-hit-miss)
+
 > jsx conditional rendering inspired by react-router v4
 
 ```
