@@ -28,7 +28,7 @@ const Awesome = ({ error, items, loading }) => (<HitMiss>
     />
     <Hit
         check={loading}
-        component={() => <LoadingSpinner />}
+        component={LoadingSpinner}
     />
     <Miss
         component={() => (<div>
