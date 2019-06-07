@@ -1,10 +1,11 @@
 import React from 'react';
+import { any, node } from 'prop-types';
 
 export const Hit = ({ component: Component }) => <Component />;
 export const Miss = ({ component: Component }) => <Component />;
 
 Hit.propTypes = Miss.propTypes = {
-    component: React.PropTypes.any,
+    component: any,
 };
 
 const HitMiss = ({ children }) => {
@@ -26,7 +27,7 @@ const HitMiss = ({ children }) => {
 };
 
 HitMiss.propTypes = {
-    children: React.PropTypes.node,
+    children: node,
 };
 
 export default HitMiss;
