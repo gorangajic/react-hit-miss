@@ -1,6 +1,6 @@
 {
   "name": "react-hit-miss",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "jsx conditional rendering inspired by react-router v4",
   "repository": {
     "type": "git",
